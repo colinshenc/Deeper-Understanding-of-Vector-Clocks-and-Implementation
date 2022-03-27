@@ -2,6 +2,8 @@
 
 Final Project-6650
 
+For project proposal, see `proposal.md`
+
 ## References
 
 - http://guyharrison.squarespace.com/blog/2015/10/12/vector-clocks.html
