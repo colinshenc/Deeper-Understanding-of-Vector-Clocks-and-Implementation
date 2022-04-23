@@ -1,0 +1,3 @@
+public enum Order {
+    HAPPENED_BEFORE,HAPPENED_AFTER,CONCURRENT;
+}

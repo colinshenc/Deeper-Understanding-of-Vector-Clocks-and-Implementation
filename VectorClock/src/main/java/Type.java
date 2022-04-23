@@ -1,3 +1,3 @@
 public enum Type {
-    INTERNAL, SEND, RECEIVE;
+    INTERNAL, SEND_RECEIVE,SEND,RECEIVE;
 }
