@@ -4,6 +4,12 @@
 
 - Vector clock is the main mechanism by which partial order is established in distributed systems where central synchronization is not possible. It is the foundation of other distributed system data structures.
 - In order to better understanding the underlying algorithm, the seminal paper, a implementation is beneficial.
+## Code structure :ice_cube:
+- Snapshots: Records all event snapshots for later comparison.
+- Vectors: Executes the Vector Clock algorithm.
+- Node:initiate events. Send and receive event messages to and from queue. 
+- MessageQueue: Facilitates inter-node communication, ran from independent thread.
+- Api: contains methods to compare and return order of two events.
 
 ## Test :bellhop_bell:
 
@@ -15,4 +21,4 @@
   - Determine partial order through timestamps: Concurrent, happened before(or after).
 
 > Cheng Shen
-> Mar 27, 2022
+> Apr 23, 2022
